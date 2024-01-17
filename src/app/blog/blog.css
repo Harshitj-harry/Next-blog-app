@@ -1,0 +1,19 @@
+.blog{
+    display: flex;
+    flex-wrap:wrap ;
+    gap: 20px;
+}
+.blog-post{
+    width: 30%;
+}
+
+@media screen and (max-width:1280px) {
+    .blog-post{
+        width: 45%;
+    }
+}
+@media screen and (max-width:768px) {
+    .blog-post{
+        width: 100%;
+    }
+}

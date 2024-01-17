@@ -1,0 +1,43 @@
+.postcard{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+
+}
+.card-top{
+    display: flex;
+}
+  
+.card-imgContainer{
+width: 90%;
+height: 400px;
+position: relative;
+}
+
+.card-img{
+object-fit: cover;
+}
+
+.card-date{
+font-size: 12px;
+transform: rotate(270deg);
+margin: auto;
+}
+
+.card-title{
+width: 90%;
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+.card-desc{
+width: 90%;
+margin-bottom: 20px;
+font-weight: 300;
+color: gray;
+}
+
+.card-link{
+text-decoration: underline;
+}

@@ -1,0 +1,61 @@
+.singlePost{
+    display: flex;
+    gap: 100px;
+}
+
+  
+.sp-imagecontainer{
+flex: 1;
+position: relative;
+width: 100%;
+height: calc(100vh - 200px);
+}
+
+.sp-img{
+  object-fit: cover;
+}
+
+.sp-textcontainer {
+flex: 2;
+display: flex;
+flex-direction: column;
+gap: 50px;
+}
+
+.sp-title{
+font-size: 64px;
+}
+
+.sp-info{
+display: flex;
+gap: 20px;
+}
+.sp-avatar{
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.sp-infotext{
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.sp-infotitle{
+color: gray;
+font-weight: bold;
+}
+
+.sp-infovalue{
+font-weight: 500;
+}
+
+.sp-content{
+font-size: 20px;
+}
+
+@media (max-width:768px){
+.sp-imagecontainer{
+    display: none;
+}
+}
