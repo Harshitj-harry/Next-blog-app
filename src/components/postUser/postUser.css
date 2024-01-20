@@ -1,0 +1,24 @@
+.postuser{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.postuser-avatar{
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.postuser-infotext{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+    
+.postuser-infotitle{
+color: gray;
+font-weight: bold;
+}
+
+.postuser-infovalue{
+font-weight: 500;
+}

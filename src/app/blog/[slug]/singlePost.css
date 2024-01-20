@@ -30,17 +30,14 @@ font-size: 64px;
 display: flex;
 gap: 20px;
 }
-.sp-avatar{
-    object-fit: cover;
-    border-radius: 50%;
-}
+
 
 .sp-infotext{
-display: flex;
-flex-direction: column;
-gap: 10px;
-}
-
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    }
+    
 .sp-infotitle{
 color: gray;
 font-weight: bold;
