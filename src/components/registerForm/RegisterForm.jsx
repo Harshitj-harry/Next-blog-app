@@ -16,7 +16,7 @@ const RegisterForm = () => {
     <form className="form" action={formAction}>
             <input type="text" placeholder="username" name="username"/>
             <input type="email" placeholder="email" name="email"/>
-            <input type="file"  name="image" accept="image/*"></input>
+            <input type="text" placeholder="image" name="img"></input>
             <input type="password" placeholder="password" name="password"/>
             <input type="password" placeholder="password again" name="passwordRepeat"/>
             <button>Register</button>

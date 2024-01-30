@@ -112,7 +112,7 @@ export const handleLogout=async()=>{
 //Function for registering a new user
 export const register=async(previousState,formData)=>{
 
-const {username,email,image,password,passwordRepeat}=Object.fromEntries(formData)
+const {username,email,img,password,passwordRepeat}=Object.fromEntries(formData)
 
 if(password!==passwordRepeat){
     return ({error:'password did not match'})
@@ -133,7 +133,7 @@ try{
         username,
         email,
         password:hashedPassword,
-        image
+        img
     })
 
     await newUser.save();
