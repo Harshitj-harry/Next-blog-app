@@ -45,7 +45,7 @@ const SinglePostPage = async ({params}) => {
           </Suspense>}
           <div className="sp-infotext">
             <span className="sp-infotitle">Published</span>
-            <span className="sp-infovalue">{post.createdAt.toString().slice(4,16)}</span>
+            <span className="sp-infovalue">{post.createdAt.toString().slice(0,10)}</span>
           </div>
         </div>
         <div className="sp-content">
